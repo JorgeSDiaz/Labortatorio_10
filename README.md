@@ -57,6 +57,7 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 * ¿Qué es serverless?
 	* modelo de computación en la nube que permite a los desarrolladores escribir y ejecutar código sin tener que preocuparse por la infraestructura subyacente en la que se ejecuta.
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
+	* se refiere al entorno de tiempo de ejecución que se utiliza para ejecutar el código de la función. El tiempo de ejecución es esencialmente el motor que se encarga de cargar el código de la función, gestionar las solicitudes entrantes y producir las respuestas salientes.
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
 	* porque los Azure Functions dependen de los servicios de almacenamiento de Azure para funcionar correctamente.
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
