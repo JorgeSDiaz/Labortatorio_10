@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "9f7bbb05-479c-47a0-87d8-534c7d9442fb",
+		"name": "Lab_10",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25452539"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nth\": 100000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://functionprojectfib.azurewebsites.net",
+					"protocol": "https",
+					"host": [
+						"functionprojectfib",
+						"azurewebsites",
+						"net"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
